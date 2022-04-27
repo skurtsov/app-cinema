@@ -1,26 +1,32 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png" />
-  <HelloWorld msg="Welcome to Your Vue.js App" />
+  <div
+    class="screen"
+    :style="{ 'background-image': 'url(' + current_BG + ')' }"
+  >
+    <div class="name-film">
+      <h1>Film</h1>
+    </div>
+    <div class="cards">
+      <div
+        class="card"
+        v-for="(idx, key) in films"
+        :key="key"
+        :style="{ 'background-image': 'url(' + image + ')' }"
+      >
+        {{ films[key] }}
+      </div>
+    </div>
+  </div>
 </template>
 
 <script>
-import HelloWorld from "./components/HelloWorld.vue";
-
 export default {
   name: "App",
-  components: {
-    HelloWorld,
+  data() {
+    return {
+      films: [1, 2, 3, 4, 5],
+      current_BG: require("@/assets/0.jpg"),
+    };
   },
 };
 </script>
-
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>

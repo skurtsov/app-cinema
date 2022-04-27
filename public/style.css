@@ -1,0 +1,24 @@
+.screen {
+    background-image: url(assets/1.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+body {
+    margin: -23px;
+    overflow-x:hidden;
+}
+.cards {
+    display: flex;
+    width: 100%;
+    position: absolute;
+    bottom: 25px;
+    justify-content: center;
+}
+.card {
+    width: 254px;
+    height: 363px;
+    background: red;
+    margin-right: 70px;
+    border-radius: 10px;
+}
