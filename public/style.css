@@ -1,5 +1,4 @@
 .screen {
-    background-image: url(assets/1.jpg);
     height: 100vh;
     background-size: cover;
     background-repeat: no-repeat;
@@ -21,4 +20,6 @@ body {
     background: red;
     margin-right: 70px;
     border-radius: 10px;
+    background-size: cover;
+    background-position: center;
 }

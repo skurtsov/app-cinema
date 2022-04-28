@@ -11,21 +11,34 @@
         class="card"
         v-for="(idx, key) in films"
         :key="key"
-        :style="{ 'background-image': 'url(' + image + ')' }"
+        :style="{ backgroundImage: 'url(' + f_data[key] + ')' }"
       >
-        {{ films[key] }}
+        >
       </div>
     </div>
   </div>
 </template>
 
 <script>
+//import data from "../data.json";
+//import image from "./assets/thumbs/0.jpg";
+
 export default {
   name: "App",
+  created() {},
   data() {
     return {
       films: [1, 2, 3, 4, 5],
       current_BG: require("@/assets/0.jpg"),
+      f_data: [
+        require("./assets/thumbs/0.jpg"),
+        require("./assets/thumbs/1.jpg"),
+        require("./assets/thumbs/2.jpg"),
+        require("./assets/thumbs/3.jpg"),
+        require("./assets/thumbs/4.jpg"),
+      ],
+      image: "",
+      tmp: [],
     };
   },
 };
