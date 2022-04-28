@@ -3,10 +3,11 @@
     background-size: cover;
     background-repeat: no-repeat;
     transition: 1s ease-in-out;
+    top: -11px;
 }
 body {
     margin: -23px;
-    overflow-x:hidden;
+    overflow:hidden;
 }
 .cards {
     display: flex;
@@ -23,4 +24,10 @@ body {
     border-radius: 10px;
     background-size: cover;
     background-position: center;
+}
+.name-film {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    top: 20%;
 }

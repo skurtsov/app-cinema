@@ -1,5 +1,7 @@
 {"films":[  
-    {"card":"./assets/thumbs/0.jpg"},  
-    {"card":"./assets/thumbs/1.jpg"},  
-    {"card":"./assets/thumbs/2.jpg"}  
+    {"title":"Pulp fiction"},  
+    {"title":"99 francs"},  
+    {"title":"The Gentleman"},
+    {"title":"Forest Gump"}, 
+    {"title":"Intouchables"}  
 ]}  
