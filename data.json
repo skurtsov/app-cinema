@@ -1,7 +1,7 @@
 {"films":[  
-    {"title":"Pulp fiction"},  
-    {"title":"99 francs"},  
-    {"title":"The Gentleman"},
-    {"title":"Forest Gump"}, 
-    {"title":"Intouchables"}  
+    {"title":"Pulp fiction","trailer": "https://www.youtube.com/embed/s7EdQ4FqbhY"},  
+    {"title":"99 francs","trailer": "https://www.youtube.com/embed/sF4EL5G7qhQ"},  
+    {"title":"The Gentleman","trailer": "https://www.youtube.com/embed/Ify9S7hj480"},
+    {"title":"Forest Gump","trailer": "https://www.youtube.com/embed/bLvqoHBptjg"}, 
+    {"title":"Intouchables","trailer": "https://www.youtube.com/embed/34WIbmXkewU"}  
 ]}  
